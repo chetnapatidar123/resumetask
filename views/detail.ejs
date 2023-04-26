@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+    <h1>MY RESUME</h1>
+    <div>
+      <div>
+        <img src="<%= data.profile%>">
+        <h1>Personal Details</h1>
+        <h5><%= data.name%></h5>
+        <h5><%= data.email%></h5>
+        <h5><%= data.contact%></h5>
+        <h5><%= data.dob%></h5>
+      </div>
+
+      <div>
+        <h1>Skill</h1>
+        <h5><%= data.skill%></h5>
+        <h1>Education detail</h1>
+        <h5><%= data.education%></h5>
+        <h1>Exprience</h1>
+        <h5><%= data.exprience%></h5>
+        <h1>Hobbies</h1>
+        <h5><%= data.hobbies%></h5>
+        <h1>Language</h1>
+        <h5><%= data.language%></h5>
+      </div>
+      <div>
+        <a href="/">Home</a>
+        <a href="/update/<%=data._id%>">Update</a>
+      </div>
+  </div>
+
+  
+</body>
+</html>
